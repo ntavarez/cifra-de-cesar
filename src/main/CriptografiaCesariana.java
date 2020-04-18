@@ -8,7 +8,7 @@ public class CriptografiaCesariana implements Criptografia {
 		int rotacoes = 3;
 
 		if (texto.isEmpty()) {
-			return null;
+			return texto;
 		} else {
 			for (int i = 0; i < texto.length(); i++) {
 				char ch = texto.charAt(i);
