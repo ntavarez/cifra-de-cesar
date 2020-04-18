@@ -59,8 +59,3 @@ public class CriptografiaCesariana implements Criptografia {
 		}
 	}
 }
-
-/*
- * public boolean textCheck(String texto) { if (texto.isEmpty()) { return true;
- * } else { return false; } } }
- */

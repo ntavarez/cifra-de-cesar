@@ -23,7 +23,7 @@ public class CriptografiaCesarianaTest {
 	@Test(expected = IllegalArgumentException.class)
 	public void deveRetornarErroQuandoOCriptografaTextoEhVazio() {
 		String texto = "Aprender Java gera felicidade";
-		if (criptografia.criptografar(texto).equals("")) {
+		if (criptografia.criptografar(texto).isEmpty()) {
 			throw new IllegalArgumentException("Não é possível criptografar: campo vazio.");
 		}
 	}
